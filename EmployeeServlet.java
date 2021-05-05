@@ -100,6 +100,7 @@ public class EmployeeServlet extends GenericServlet {
         pw.println("<td><b>deptno</b></td>");
         pw.println("<td><b>empno</b></td>");//remove after testing git
         pw.println("<td><b>ename</b></td>");//  ""    ""   ""
+        pw.println("<td><b>deptno</b></td>");
         pw.println("</tr>");
      while(rs.next()) {
                pw.println("<tr>");
