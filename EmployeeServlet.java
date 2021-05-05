@@ -66,6 +66,7 @@ public class EmployeeServlet extends GenericServlet {
 	 */
 	public void destroy() {
 		// TODO Auto-generated method stub
+		System.out.println("destroying1...");
 		  try {
 	            st.close();
 	            rs.close();
