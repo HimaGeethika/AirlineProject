@@ -41,7 +41,7 @@ public class EmployeeServlet extends GenericServlet {
 	 */
 	public void init(ServletConfig config) throws ServletException {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Initialising...");
 		try
 		{
 			//1st step : load the driver
